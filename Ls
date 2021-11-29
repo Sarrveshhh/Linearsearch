@@ -1,0 +1,34 @@
+class Poppy {
+    private int radius;
+    private int height;
+    
+    public void setRadius(int radius){
+       this.radius = radius;        //setter for radius
+    }
+    
+    public int getRadius(){
+        return radius;             //getter for radius
+    }
+    
+    public void setHeight(int height){
+       this.height = height;        //setter for height
+    }
+    
+    public int getHeight(){
+        return height;             //getter for height
+    }  
+}
+
+public class Cylinder{
+    
+    public static void main(String args[]){
+        Poppy c1 = new Poppy();
+        c1.setHeight(21111);
+        c1.setRadius(1222);
+        System.out.println(c1.getHeight());
+        System.out.println(c1.getRadius());
+        
+    }
+    
+    
+}
